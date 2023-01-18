@@ -6,12 +6,12 @@ public class Duck extends AbsAnimal implements IFlying {
 
     @Override
     public void say(){
-        System.out.println("Кря");
+        System.out.println("РљСЂСЏ");
     }
 
     @Override
     public void fly(){
-        System.out.println("Я лечу");
+        System.out.println("РЇ Р»РµС‡Сѓ");
     }
 
 }

@@ -40,36 +40,36 @@ public abstract class AbsAnimal {
     }
 
     public void say(){
-        System.out.println("ß ãîâîğş");
+        System.out.println("Ğ¯ Ğ³Ğ¾Ğ²Ğ¾Ñ€Ñ");
     }
 
     public void go(){
-        System.out.println("ß èäó");
+        System.out.println("Ğ¯ Ğ¸Ğ´Ñƒ");
     }
 
     public void drink(){
-        System.out.println("ß ïüş");
+        System.out.println("Ğ¯ Ğ¿ÑŒÑ");
     }
 
     public void eat(){
-        System.out.println("ß åì");
+        System.out.println("Ğ¯ ĞµĞ¼");
     }
 
     @Override
-    public String toString(){   // ıòî ìåòîä èç êëàññà Object. Îí ïğåîáğàçóåò îáúåêò â ñòğîêó.
-        return String.format("Ïğèâåò! ìåíÿ çîâóò %s, ìíå %d %s, ÿ âåøó - %d, ìîé öâåò - %s", name, age, getYearStringPadej(age), weight, color);
+    public String toString(){   // ÑÑ‚Ğ¾ Ğ¼ĞµÑ‚Ğ¾Ğ´ Ğ¸Ğ· ĞºĞ»Ğ°ÑÑĞ° Object. ĞĞ½ Ğ¿Ñ€ĞµĞ¾Ğ±Ñ€Ğ°Ğ·ÑƒĞµÑ‚ Ğ¾Ğ±ÑŠĞµĞºÑ‚ Ğ² ÑÑ‚Ñ€Ğ¾ĞºÑƒ.
+        return String.format("ĞŸÑ€Ğ¸Ğ²ĞµÑ‚! Ğ¼ĞµĞ½Ñ Ğ·Ğ¾Ğ²ÑƒÑ‚ %s, Ğ¼Ğ½Ğµ %d %s, Ñ Ğ²ĞµÑˆÑƒ - %d, Ğ¼Ğ¾Ğ¹ Ñ†Ğ²ĞµÑ‚ - %s", name, age, getYearStringPadej(age), weight, color);
     }
 
     private String getYearStringPadej(int age){
         if (age % 10 == 0 || age % 10 >= 5 || age >= 10 && age <=19){
-            return "ëåò";
+            return "Ğ»ĞµÑ‚";
         }
 
         if (age % 10 == 1){
-            return "ãîä";
+            return "Ğ³Ğ¾Ğ´";
         }
 
-        return "ãîäà";
+        return "Ğ³Ğ¾Ğ´Ğ°";
     }
 
 }

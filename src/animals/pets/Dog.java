@@ -7,7 +7,7 @@ public class Dog extends AbsAnimal {
 
     @Override
     public void say(){
-        System.out.println("√‡‚");
+        System.out.println("–ì–∞–≤");
     }
 
 }
