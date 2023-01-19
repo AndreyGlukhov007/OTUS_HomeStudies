@@ -151,7 +151,7 @@ public class Runner {
                     break;
                 }
                 case EXIT: {
-                    break;
+                    System.exit(0);
                 }
             }
         }
